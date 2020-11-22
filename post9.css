@@ -1,0 +1,14 @@
+/* POST 9 TEMPLATE CSS */
+
+.hug_much2{width:345px;padding:20px 19px 20px 19px;background:#efefef;border:1px solid #bcbcbc;}
+.much{width:320px;padding:10px;border:1px solid #bcbcbc;background:#ffffff;padding-bottom:30px}
+.image{width:320px;height:160px;position:absolute;background-image:var(--aes9image);background-size: 100% 100%;}
+.much_border{width:300px;height:140px;border:5px solid #ffffff;margin-top:5px;}
+.much_text{width:250px;margin-top:195px;line-height:1.3em;text-align:justify;font-size:12px;font-family:calibri;color:#343434;padding-bottom:25px}
+.much_text b{font-family:calibri;color:var(--aes9color);font-size:13px;letter-spacing:0.4px;}
+.much_text i {color:var(--aes9color);}
+.alive_much2a{border:1px solid #bcbcbc;padding:12px 25px 10px 25px;font-size:7px;font-family:PT ono;letter-spacing:1.7px;text-transform:uppercase;width:194px;text-align:center;background:#ffffff;line-height:1em;color:#a2a2a2}
+.alive_mucha{border:1px solid #bcbcbc;padding:5px;width:246px;background:#efefef}
+.sacredcred {font-size:12px;width:350px;text-align:right;color:#ccc;transition:ease-in-out 0.5s;}
+.sacredcred a{color:#ccc;font-size:10px;}
+.sacredcred:hover{color:#dbabc6;transition:ease-in-out 0.5s;}
