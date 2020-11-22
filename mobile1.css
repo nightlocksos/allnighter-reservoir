@@ -1,0 +1,52 @@
+/* MOBILE 1 TEMPLATE CSS */
+
+@keyframes galaxy-shake { 
+  0% { transform: rotate(0deg); }
+   85% { transform: rotate(0deg); }
+   90% { transform: rotate(5deg); }
+   95% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+
+@keyframes galaxy-in {
+  0% { transform:scale(1); opacity:1; }
+  100% { transform:scale(1.75); opacity:0; }
+}
+
+.galaxyCase { padding:5px 10px; border-radius:10px; background-color:#212121; width:299px; position:relative; }
+.galaxySpeaker { background-color:rgba(255,255,255,.1); height:7px; width:149px; margin:10px 0px; border-radius:5px; }
+.galaxyCamera { width:7px; height:7px; border-radius:100%; background-color:rgba(255,255,255,.1); position:absolute; left:25px; top:15px; }
+.galaxyPhone { width:299px; height:500px; overflow:hidden; background-color:#efefef; position:relative; }
+.galaxyLockscreen { width:300px; flex-shrink:0; height:500px; position:absolute; z-index:0; opacity:1; background-image:url(http://placehold.it/300x500/333/eee.png); background-image:var(--galaxyPhoneBG); display:flex; align-items:center; justify-content:center; transition:.33s; }
+.galaxyPhone:hover .galaxyLockscreen { transition:.33s; transition-delay:.33s; }
+.galaxySecond { opacity:0; margin-top:250px; transition:.33s; position:relative; }
+.galaxyPhone:hover .galaxySecond { opacity:1; transition:.33s; margin-top:0px; position:relative; transition-delay:.33s; }
+.galaxyLockscreen h1 { margin:0px; position:absolute; z-index:1; font:300 56px Muli; color:#fafafa; text-shadow: 0px 0px 3px #555; }
+.galaxyLockscreen h2 { margin:0px; font:300 12px Muli; margin-top:75px; text-shadow: 0px 1px 2px #555; }
+.galaxyLockscreen span { position:absolute; bottom:25px; color:#fafafa; text-shadow: 0px 1px 2px #555; transition:.25s; transition-delay:.33s; cursor:default; font:48px Material Icons; white-space: nowrap;transform:scale(1); animation:2.5s galaxy-shake linear infinite;}
+.galaxyPhone:hover .galaxyLockscreen span { animation:.25s galaxy-in normal; opacity:0; }
+.galaxyRibbon { height:20px; width:279px; position:absolute; z-index:9; background-color:rgba(0,0,0,.2); color:#fafafa; display:flex; align-items:center; justify-content:space-between; padding:2px 10px; font:400 10px muli; }
+.galaxyRibbon div { display:flex; align-items:center; justify-content:center; }
+.galaxyRibbon span { margin-right:5px; height:10px; width:10px; line-height:20px; display:flex; align-items:center; justify-content:center; font-size:10px; speak: none; font-style: normal; font-weight: normal; text-transform: none; text-rendering: auto; line-height: 1; -webkit-font-smoothing: antialiased; font-variant: normal;}
+.galaxyContact { height:59px; margin-top:0px; padding:24px 10px 0px 10px; background:linear-gradient(60deg, var(--galaxyAccent1), var(--galaxyAccent2) ); background-color:var(--galaxyAccent2); font:800 18px/18px Muli; color:#fff!important; display:flex; align-items:center; justify-content:space-between; }
+.galaxyContact div { position:absolute; font:300 10px muli; margin-top:15px; }
+.galaxyContact div a { font:300 10px muli!important; color:rgba(255,255,255,.66)!important;text-transform:lowercase; }
+.galaxyContact i { font-size:28px; font-style:normal; margin-right:0px; cursor:pointer; }
+.galaxyMessages { height:371px; width:299px; overflow:auto; text-align:left; background-color:#eee; display:flex; flex-flow:column nowrap; justify-content:flex-start; padding-top:10px; position:relative; }
+.galaxyMessages::after { content:'.'; font-size:0; line-height:10px; background-color:#eee; color:#eee; }
+.galaxyMessages h1, .galaxyMessages h2 { margin:0px 10px 10px 10px; max-width:189px; color:#fafafa; padding:10px; font:12px roboto; text-align:justify; width:auto; }
+.galaxyMessages h1 img, .galaxyMessages h2 img { display:block; border-radius:3px;  }
+.galaxyMessages h1 { background-color:var(--galaxyAccent1); margin-left: auto; -webkit-border-radius: 3px; -webkit-border-top-right-radius: 0; border-radius: 3px; border-top-right-radius: 0; }
+.galaxyMessages h2 { background-color:var(--galaxyAccent2); margin-right:auto; position:relative; left:40px; -webkit-border-radius: 3px; -webkit-border-top-left-radius: 0; border-radius: 3px; border-top-left-radius: 0; }
+.galaxyMessages h2:before { content:''; position:absolute; z-index:0; margin-left:-50px; margin-top:-7px; width:30px; height:30px; border-radius:100%; background-image:var(--galaxycontactIMG); background-size:cover; }
+.galaxyMSGbox { width:289px; height:25px; padding:5px; border-top:1px solid #ddd; background-color:#eaeaea; display:flex; flex-flow:row nowrap; align-items:center; justify-content:space-between; }
+.galaxyMSGbox h1 { margin:0px 5px; width:244px; font:300 12px muli; color:#aaa; padding:5px; border-radius:3px; background-color:#f7f7f7; cursor:text; }
+.galaxyMSGbox h1:before { content:'enter a message' }
+.galaxyMSGbox span { display:inline; width:25px; height:25px; font-size:20px; line-height:25px; color:var(--galaxyAccent2); transition:.1s; }
+.galaxyMSGbox span:before { background-image: linear-gradient(40deg, var(--galaxyAccent1), var(--galaxyAccent2) ); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.galaxyMSGbox span:hover { font-size:22px; transition:.1s; cursor:pointer; }
+.galaxyMessages::-webkit-scrollbar { width:7px;border:0px; }
+.galaxyMessages::-webkit-scrollbar-track { background-color:#fcfcfc;border:0px;}
+.galaxyMessages::-webkit-scrollbar-thumb { background-image:linear-gradient(to bottom, var(--galaxyAccent1), var(--galaxyAccent2) ); background-color:var(--galaxyAccent1);border:0px; }
+.galaxyCredit { font:800 7px roboto; margin-left:250px; }
+.galaxyCredit a { font:800 7px roboto; }
