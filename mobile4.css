@@ -1,0 +1,66 @@
+/* MOBILE TEMPLATE 4 CSS */
+
+.scook0 a {
+text-decoration: none; color: var(--main2);
+}
+.scook0a {
+background: var(--main1); width: 100px; height: 18px; position: absolute; top: 0px; left: 75px;
+border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; z-index: 5;
+}
+.scook0b {
+position: absolute; top: 2px; left: 85px; width: 63px; height: 10px; z-index: 5;
+border-radius: 5px; background: var(--main2);
+}
+.scook0c {
+position: absolute; top: 2px; right: 85px; width: 10px; height: 10px; z-index: 5;
+border-radius: 5px; background: var(--main2);
+}
+.scook0d {
+position: absolute; bottom: -50px; left: 100px; width: 45px; opacity: 1; height: 45px; z-index: 5;
+border-radius: 50%; background: radial-gradient(var(--accent) 25%, var(--main1) 90%);
+}
+.scook1 {
+width: 101%; text-align: left; box-sizing: border-box; border: 10px solid transparent; padding: 0px 5px;
+font: 10px/100% Poppins; text-transform: uppercase; background: var(--main1); color: var(--main2);
+border-top-right-radius: 35px; border-top-left-radius: 35px; position: absolute; top: -1px; left: -1px;
+}
+.scook1 span {float: right;}
+.scook1 i {margin: 0px 1px 0px -2px;}
+.scook2 {
+width: 100%; text-align: left; box-sizing: border-box; border: 10px solid transparent; padding: 0px 5px;
+font: 12px/110% Poppins; text-transform: lowercase; background: var(--main1); color: var(--main2);
+position: absolute; bottom: 0px; box-shadow: 0px 1px 0px var(--accent);
+}
+.scook2 span {float: right;}
+.scook2 i {margin-left: -2px;}
+.scook3 {
+height: 252px; width: 100%; box-sizing: border-box; border: 20px solid transparent; overflow: auto;
+padding-right: 10px; color: var(--main3); position: absolute; bottom: 40px;
+}
+.scook3 p {
+   float: right; padding: 10px;  margin-left: 90px;
+margin-top: 10px; margin-bottom: -5px; background: var(--main1); font: 11px/120% Poppins; border-radius: 5px;
+}
+.scook3::-webkit-scrollbar { width: 5px; }
+.scook3::-webkit-scrollbar-track { background: var(--main1); border: none; }
+.scook3::-webkit-scrollbar-thumb { background: linear-gradient(var(--accent), var(--main1)); }
+
+.scook4 {
+height: 82px; position: absolute; top: 50px; left: 0px; width: 100%;
+}
+.scook4 img {
+border-radius: 50% 50% 0% 50%; height: 70px; width: 70px; border: 1px solid var(--color3); padding: 5px; border: 1px solid var(--main1);
+position: absolute; left: 15px; top: 20px;
+}
+.scook4b {
+position: absolute; right: 20px; top: 19px; text-transform: lowercase; font: 16px/110% Poppins;
+text-align: center; color: var(--main1); width: 50%; font-style: italic;
+}
+.scook4b i {
+display: block; font-size: 46px; position: absolute; top: 30px; left: 20px; color: var(--accent);
+}
+.scook4b span {
+position: absolute; top: 25px; left: 1px; background: var(--accent); color: var(--main1); padding: 5px;
+height: 10px; width: 10px; border-radius: 50%; border: 1px solid var(--main1); font: normal 10px/100% Poppins; text-align: center;
+}
+</style>
