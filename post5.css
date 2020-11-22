@@ -1,0 +1,114 @@
+/* POST 5 TEMPLATE CSS */
+
+.nameBG {
+background-color:#fff;
+height:380px;
+width:520px;
+}
+
+.nameLeft {
+background-color:#eee;
+height:380px;
+width:150px;
+float:left;
+overflow:hidden;
+}
+
+.nameLeft IMG {
+-webkit-filter:grayscale(100%);
+-webkit-transform:scale(1.35);
+}
+
+.nameScreen {
+height:380px;
+width:150px;
+float:left;
+background-color:var(--aes5color);
+margin-left:-150px;
+opacity:.7;
+}
+
+.nameScreen IMG {
+height:100%;
+width:100%;
+}
+
+.nameIMG {
+float:left;
+margin:22px;
+margin-left:-125px;
+opacity:.9999999;
+border:#fff 5px solid;
+height:325px;
+width:200px;
+overflow:hidden;
+transition:.3s;
+}
+
+.nameIMG IMG {
+width: 100%;
+height: 100%;
+transition:.3s;
+transition-delay:.3s;
+}
+
+.nameIMG:hover IMG {
+-webkit-filter:brightness(60%);
+transition:.3s;
+}
+
+.nameBody {
+width:255px;
+float:right;
+height:355px;
+overflow:auto;
+padding:0 15px 0 20px;
+border-top:#fff 13px solid;
+border-bottom:#fff 10px solid;
+border-right:#fff 10px solid;
+margin-left:-40px;
+text-align:justify;
+font-family:calibri;
+font-size:11px;
+line-height:12px;
+}
+
+.nameBody b {
+color:var(--aes5color);
+font-family:varela round;
+font-size:11px;
+}
+
+.nameBody i {
+color:var(--aes5color);
+font-family:varela round;
+font-size:11px;
+}
+
+.nameBody::-webkit-scrollbar {width:3px;background-color:#ddd;border:#fff 1px solid;}
+.nameBody::-webkit-scrollbar-thumb {width:3px;background-color:#ddd;}
+
+.nameTag {
+margin-top:-100px;
+margin-bottom:15px;
+text-shadow:#fff 0 0 1px;
+opacity:0;
+transition:.3s;
+transition-delay:.3s;
+}
+
+.nameNote {
+font-family:muli;
+font-size:10px;
+width:80%;
+color:#fff;
+opacity:0;
+transition:.3s;
+line-height:12px;
+transition-delay:.3s;
+}
+
+.nameIMG:hover .nameTag, .nameIMG:hover .nameNote {
+opacity:.99999;
+transition:.3s;
+}
