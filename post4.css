@@ -1,0 +1,85 @@
+/* POST TEMPLATE 4 CSS */
+
+.jmoldau {
+ margin:0 auto;
+ width:500px;
+ background:var(--main-color);
+ position:relative;
+ border-collapse:collapse;
+ line-height:100%;
+ border:0.5px solid #ddd;
+}
+.jmoldaurp {
+ background:#f7f7f7;
+ position:relative;
+ margin-right:130px;
+ padding:50px;
+ font-family:Open Sans;
+ font-weight:500;
+ font-size:10px;
+ line-height:15px;
+ color:#444;
+ text-align:justify;
+}
+.jmoldaurp b {
+ color:var(--main-color);
+ font-family:Poppins;
+ font-weight:600;
+}
+.jmoldaurp i {
+ color:var(--main-color);
+}
+.jmoldauh {
+ background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), var(--big-img);
+ height:150px;
+ filter:grayscale(20%);
+ background-size:cover;
+ background-position:center center;
+ position:relative;
+}
+.jmoldaulyr {
+ position:absolute;
+ left:0; top:70px;
+ width:500px;
+ font-family:Poppins;
+ font-weight:600;
+ font-size:9px;
+ letter-spacing:5px;
+ text-transform:uppercase;
+ text-align:center;
+ line-height:100%;
+ color:#fff;
+}
+.jmoldaul {
+ width:50px;
+ height:2px;
+ background:var(--main-color);
+ position:absolute;
+ top:95px; left:225px;
+ line-height:100%;
+}
+.jmoldautag {
+ width:100px;
+ line-height:100%;
+ position:absolute;
+ bottom:15px; right:15px;
+ color:#fff;
+ font-family:Poppins;
+ font-size:8px;
+ font-weight:600;
+ text-align:right;
+ text-transform:uppercase;
+}
+.jmoldaucred {
+ text-align:center;
+ letter-spacing:2px;
+ line-height:100%;
+ margin:0 auto;
+}
+.jmoldaucred a {
+ color:#ccc;
+ font-family:Arial;
+ font-size:6px;
+ text-align:center;
+ text-decoration:none;
+}
