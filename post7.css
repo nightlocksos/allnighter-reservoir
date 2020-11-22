@@ -1,0 +1,71 @@
+/* POST 7 TEMPLATE CSS */
+
+
+ .altaria {
+   width: 300px;
+   background: #ddd;
+   border: 1px solid #ccc;
+   border-radius: 0px 50px 0px 0px;
+   position: relative;
+   padding: 5px;
+ }
+ 
+ .altaria-wrapper {
+   background: var(--accent);
+   border: 1px solid #ccc;
+   border-radius: 0px 50px 0px 0px;
+ }
+ 
+ .altaria-header img {
+   position: absolute;
+   border-radius: 0px 0px 0px 50px;
+   background: #eee;
+   border: 1px solid #ccc;
+   padding: 5px;
+   height: 75px; width: 75px;
+   right: -1px; top: -1px;
+ }
+ 
+ .altaria-header {
+   background: var(--accent);
+   padding: 15px 10px;
+   text-align: left;
+   border-radius: 0px 100px 0px 0px;
+ }
+ 
+ .altaria-lyrics {
+   font-size: 10px;
+   font-family: montserrat, sans-serif; text-transform: uppercase;
+   font-weight: bold;
+ color: #fff;
+ }
+ 
+ .altaria-credit {
+   float: right;
+   font-size: 15px;
+ }
+ 
+ .altaria-post {
+   padding: 50px;
+   font-size: 10px;
+   font-family: verdana, sans-serif;
+   text-align: justify;
+   color: #555;
+   background: #f2f2f2;
+   border-radius: 0px 0px 0px 100px;
+   line-height: 12px;
+ }
+
+.altaria-post b {
+   color: var(--accent)
+ }
+
+.altaria-post i {
+   color: var(--accent)
+ }
+
+ .altaria-tagged {
+   background: var(--accent);
+   font-size: 10px; font-family: montserrat, sans-serif;
+   color: #fff; padding: 5px;
+ }
