@@ -1,0 +1,12 @@
+/* POST 3 TEMPLATE CSS */
+
+.betweenback { width:320px; padding:50px; background-color:#f6f6f6; position:relative; border:1px solid #ececec; }
+.betweenborder { width:210px; border:1px solid var(--aes3v1color); padding:50px; border-radius:10px; position:relative; }
+.betweentext { background-color:#f6f6f6; height:10px; padding:10px; position:absolute; z-index:1; left:20px; line-height:12px; top:-16px; text-align:left; font-family:raleway; font-weight:400; font-size:8px; text-transform:uppercase; color:var(--aes3v1color); letter-spacing:1px; }
+.yomama { width:420px; text-align:right; }
+.yomama a { color:#8a8a8a; text-decoration:none; font-size:7px; }
+.betweenimage { position:absolute; border-radius:100%; bottom:-30px; right:20px; height:50px; width:50px; background-color:#efefef; border:1px color:var(--aes3v1color) solid; padding:5px; overflow:hidden; }
+.betweenimage img { width:50px; height:50px; border-radius:100%; }
+.betweenwords { width:210px; text-align:justify; color:#8a8a8a; font-family:raleway; font-size:10px; line-height:13px; }
+.betweenwords b { color:var(--aes3v1color); }
+.betweenwords i { color:var(--aes3v1color); }
