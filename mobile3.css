@@ -1,0 +1,105 @@
+/* MOBILE TEMPLATE 3 CSS */
+
+.ascom1a {margin: auto;
+width: 235px;
+padding-right: 10px;
+padding-left: 10px;
+padding-top: 20px;
+padding-bottom: 10px;
+background: #f2f2f2;
+border-radius: 10px;}
+
+.ascom1b {width: 230px;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-right: 5px;
+background: #dfdfdf;
+color: #777777;
+font-size: 10px;
+text-align: right;}  
+
+.ascom1c {
+width: 235px;
+padding-top: 10px;
+padding-bottom: 8px;
+background-color:var(--phone3color);
+border-bottom: solid 1px #f2f2f2;
+opacity: .7;
+}  
+
+.ascom1c h1 {font-family: 'Open Sans';
+text-align: justify;
+font-size: 10px;
+margin-left: 5px;
+margin-right: 5px;
+text-transform: uppercase;
+letter-spacing: 3px;
+color: #BBBBBB;
+}
+
+.ascom1c h2 {font-family: 'Open Sans';
+text-align: justify;
+font-size: 8px;
+text-transform: uppercase;
+letter-spacing: 3px;
+color: #DDD;
+margin-top: -3px;
+margin-left: 5px;
+margin-right: 5px;
+}
+
+.ascom1d {padding: 3px;
+border: solid 1px #eee;
+border-radius: 5px;
+width: 50px;
+height: 50px;
+margin-left: 5px;}
+
+.ascom1d img {max-width: 50px;
+max-height: 50px;
+border-radius: 3px; }
+
+.ascom1e {border-bottom: solid 1px #f2f2f2;
+padding: 10px;
+font-family: 'Open Sans';
+font-size: 10px;
+color: #666;
+text-align: justify;
+letter-spacing: .5px;
+line-height: 12px;
+background: #f9f9f9;
+height: 150px;
+overflow-y: auto;}
+
+.ascom1f {width: 60%;
+margin-left: auto;
+font-family: 'Open Sans';
+font-size: 10px;
+color: #666;
+text-align: justify;
+letter-spacing: .5px;
+line-height: 12px;
+background: #ffffff;
+padding: 5px;
+padding-left: 10px;
+padding-right: 10px;
+border-radius: 5px;
+margin-bottom: 5px;
+border: solid 1px #f2f2f2;}
+
+.ascom1g {width: 20px;
+height: 20px;
+border: solid 2px #dfdfdf;
+border-radius: 15px;
+margin-top: 10px;
+margin-left: auto;
+margin-right: auto; }
+
+.ascom1h {padding: 5px;
+background: #fff;
+font-family: 'Open Sans';
+text-align: justify;
+font-size: 6px;
+text-transform: uppercase;
+letter-spacing: 3px;
+color: #DDD; }
