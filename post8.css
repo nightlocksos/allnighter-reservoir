@@ -1,0 +1,23 @@
+/* POST 8 TEMPLATE CSS */
+
+.wnubreak { border: solid 1px #eee; background-color: #fff; width: 300px; padding: 15px; min-height: 300px }
+
+.wnubreaktitle { background-color: #F0F0F0; width: 300px; min-height: 30px; color: #1b1b1b; text-align: center; font-family: Wire One; font-size: 31px; letter-spacing: 4px; padding-top: 15px; }
+
+.wnubreaktitle2 { margin-top: 5px; }
+
+.wnubreaktitle2 img { max-height: 50px; min-width: 300px; }
+
+.wnubreakbody { background-color: #F9F9F9; width: 240px; padding: 20px 30px 16px 30px; font-family: Montserrat; font-size: 9px; text-align: justify; margin-top: 5px; color: #555; line-height: 12px; }
+
+.wnubreakbody u { font-family: Wire One; font-size: 16px; text-decoration: none; text-transform: uppercase; }
+
+.wnubreakbody b { color:var(--aes8color); font-family: Raleway; font-size: 10px; }
+
+.wnubreakbody i { color:var(--aes8color); }
+
+.wnubreakbrdr { background-color:var(--aes8color); min-height: 4px; width: 300px; margin: 5px 0px 5px 0px; }
+
+.wnubreaktags { background-color: #F9F9F9; font-family: calibri; color: #A8A8A8; font-size: 9px; min-height: 20px; padding: 6px 5px 5px 5px; min-width: 290px; max-width: 290px; text-align: center; line-height: 12px;  }
+
+.clear{ text-align:center;font-family: "Mukta";font-size:8px;text-transform:uppercase; margin-right: 8px;}
