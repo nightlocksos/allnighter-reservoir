@@ -1,0 +1,205 @@
+.firewood {
+ position: relative;
+ margin: 20px auto 0px;
+ height: 550px;
+ width: 330px;
+ background: #E5E4E2;
+ border-radius: 10px;
+}
+
+.fw-personalphoto {
+ position: absolute;
+ height: 40px;
+ width: 50px;
+ background: #d9d9d9;
+ border-radius: 15px 0px 0px 15px;
+ right: 0px;
+ top: 35px;
+}
+
+.fw-personalphoto img {
+ height: 30px;
+ width: 30px;
+ border-radius: 100%;
+ object-fit: cover;
+ position: absolute;
+ top: 5px;
+ left: 5px;
+}
+
+.fw-topbit {
+ position: absolute;
+ height: 105px;
+ width: 330px;
+ border-bottom: 1px solid white;
+}
+
+.fw-topbit:before {
+ content: "DUPLIS NETWORK";
+ display: block;
+ position: absolute;
+ color: #b3b3b3;
+ font-family: roboto;
+ text-transform: uppercase;
+ font-size: 9px;
+ padding: 7px;
+ font-weight: 700;
+ letter-spacing: 1px;
+}
+
+.fw-topbit:after {
+ content: "HOME>>";
+ display: block;
+ position: absolute;
+ color: #b3b3b3;
+ font-family: roboto;
+ text-transform: uppercase;
+ font-size: 9px;
+ padding: 7px;
+ right: 0px;
+ top: 0px;
+ font-weight: 700;
+ letter-spacing: 1px;
+}
+
+.fw-topbit toplabel {
+ position: absolute;
+ display: block;
+ background: #d9d9d9;
+ height: 17px;
+ width: 100px;
+ border-radius: 0px 0px 10px 10px;
+ left: 115px;
+ color: #666;
+ font-size: 11px;
+ text-align: center;
+ line-height: 180%;
+ letter-spacing: 1px;
+}
+
+.fw-topbit messaging {
+ display: block;
+ color: #8d8d8d;
+ font-family: roboto;
+ font-size: 10px;
+ letter-spacing: 2px;
+ line-height: 100%;
+ top: 47px;
+ position: relative;
+ left: 20px;
+ width: 230px;
+}
+
+.fw-topbit messaging b {
+ display: inline-block;
+ font-weight: 400;
+ background: #d9d9d9;
+ margin: 0px 3px 0px 0px;
+ padding: 2px 2px 2px 5px;
+ border-radius: 10px;
+ border: 1px solid #cccccc;
+}
+
+.fw-topbit name {
+ display: inline-block;
+ padding-bottom: 3px;
+ font-family: roboto;
+ font-weight: 600;
+ color:#2C3539;
+ text-transform: capitalize;
+ letter-spacing: 1px;
+ font-size: 15px;
+ cursor: pointer;
+}
+
+.fw-mainin {
+ position: absolute;
+ bottom: 0px;
+ height: 465px;
+ width: 330px;
+ border-radius: 0px 0px 10px 10px;
+ overflow: hidden;
+}
+
+.fw-mainin img {
+ position: absolute;
+ object-fit: cover;
+ width: 330px;
+ height: 465px;
+ opacity: 0.7;
+}
+
+.fw-mainin messaging {
+ position: absolute;
+ display: block;
+ background-color: #E5E4E2;
+ width: 330px;
+ height: 35px;
+ bottom: 0px;
+ border-top: 1px solid white;
+}
+
+.fw-mainin h1 {
+ display: block;
+ background-color: white;
+ font-size: 9px;
+ font-family: roboto;
+ text-transform: uppercase;
+ width: 300px;
+ left: 10px;
+ position: relative;
+ height: 12px;
+ top: 3px;
+ padding: 2px 5px;
+ border-radius: 10px;
+ line-height: 150%;
+ letter-spacing: 1.5px;
+ opacity: .75;
+}
+
+.fw-scroll {
+ height: 368px;
+ width: 270px;
+ position: absolute;
+ z-index: 1;
+ left: 10px;
+ overflow: auto;
+ outline: 1px solid white;
+ padding: 20px;
+ display: flex;
+ flex-direction: column;
+}
+
+.fw-scroll left, .fw-scroll right {
+ display: inline-block;
+ float: left;
+ padding: 10px;
+ background: rgba(10,10,10,0.5);
+ font-family: roboto;
+ font-weight: 400;
+ font-size: 11px;
+ color: #eee;
+ letter-spacing: 0.7px;
+ margin: 4px 0px;
+ border: 1px solid #7777;
+ align-self: flex-start;
+ border-radius: 10px;
+ line-height: 130%;
+}
+
+.fw-scroll right {
+ align-self: flex-end;
+ background-color:var(--accountcolor);
+}
+
+.fw-scroll::-webkit-scrollbar{display: none;}
+
+.fw-scroll img {
+ display: block;
+ height: auto;
+ max-width: 200px;
+ opacity: 1;
+ filter: none;
+ -webkit-filter: none;
+ position: relative;
+}
