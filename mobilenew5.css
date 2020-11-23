@@ -1,0 +1,123 @@
+/* MOBILE 5 (NEW VARIANT) CSS */
+
+.solsticecomm1 {
+ position: relative;
+ border: 1px solid #bbb;
+ width: 280px;
+ margin: 20px auto;
+ background:#eee;
+ border-radius: 10px;
+ overflow: hidden;
+}
+
+.solsticewallpaper {
+   height: auto;
+   width: 280px;
+   opacity: 0.8;
+   background-image:var(--wallpaperimage);
+  }
+  
+.solsticecomm1-top {
+ background: #f7f7f7;
+ border-bottom: 1px solid #bbb;
+ padding: 8px;
+ text-align: center;
+ font-family: Roboto;
+ font-size: 10px;
+ font-weight: 800;
+ color: #777;
+}
+
+.solsticecomm1-top .sf {
+ float:left;
+ margin-right: 4px;
+}
+
+.solsticecomm1-top b {
+ margin-left: -30px;
+ letter-spacing: 1px;
+}
+
+.solsticecomm1-block1 {
+ background: var(--accountcolor);
+ border-bottom: 1px solid #bbb;
+ display: flex;
+ align-items: center;
+ font-family: Roboto, sans-serif;
+ text-transform: uppercase;
+ font-weight: 500;
+ font-size: 10px;
+ color: #FEFCFF;
+ letter-spacing: 1px;
+ opacity: 0.8;
+}
+
+.solsticecomm1-block1 img {
+ height: 50px;
+ width: 50px;
+ padding: 5px;
+ background: var(--accountdarkcolor);
+ outline: 1px solid #bbb;
+ margin-right: 20px;
+}
+
+.solsticecomm1-block1 b {
+ display: block;
+ font-size: 14px;
+ margin-bottom: 3px;
+ color: #fff;
+ letter-spacing: 1px;
+ text-shadow: -1px -1px 0 var(--accountcolor), 1px -1px 0 var(--accountcolor), -1px 1px 0 var(--accountcolor), 1px 1px 0 var(--accountcolor);
+}
+
+.solsticecomm1-block1 .sf {
+ bottom: -1px;
+ position: relative;
+}
+
+.solsticecomm1-in {
+ height: 350px;
+ overflow: auto;
+ display: flex;
+ align-items: flex-end;
+ flex-direction: column;
+ justify-content: flex-start;
+ padding: 10px;
+}
+
+.solsticecomm1-in::-webkit-scrollbar{display: none;}
+
+.solsticecomm1-in p {
+ padding: 10px;
+ background: var(--accountcolor);
+ margin: 5px 0px;
+ border-radius: 10px;
+ font-size: 11px;
+ font-family: 'Quicksand', sans-serif;
+ border: 1px solid #bbb;
+ color: #FFFFFF;
+ line-height: 150%;
+ margin-left: 20px;
+}
+
+.solsticecomm1-in p img {
+ max-width: 100%;
+}
+
+.solsticecomm1-bottom {
+ position: relative;
+ padding: 5px;
+ border-top: 1px solid #bbb;
+ background: var(--accountcolor);
+ opacity: 0.8;
+}
+
+.solsticecomm1-bottom div {
+ padding: 5px;
+ border-radius: 5px;
+ border: 1px solid #bbb;
+ background: var(--accountdarkcolor);
+ color: #fff;
+ font-size: 11px;
+ font-family: 'Quicksand', sans-serif;
+}
