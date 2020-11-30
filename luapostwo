@@ -1,0 +1,42 @@
+/***CODE AND TEMPLATE BY LUA***/
+
+    .postimg {
+      border: 1px solid var(--postcolor);
+      border-bottom: hidden;
+      background-color: #eee;
+      width: 429px;
+      height: 150px;
+      float: top;
+      top: 50px;
+      overflow: hidden;
+    }
+    .postbody {
+      width: 409px;
+      height: 350px;
+      padding: 5px;
+      padding-right: 10px;
+      padding-left: 10px;
+      background-color: #c2c2c2;
+      border-right: solid;
+      border-left: solid;
+      border-bottom: solid;
+      border-top: hidden;
+      border-color: var(--postcolor);
+      border-width: 1px;
+      font-family: 'Roboto';
+      font-weight: 300;
+      font-size: 13px;
+      text-align: justify;
+      line-height: 13px;
+      overflow: auto;
+    }
+    .postbody b {
+      color: var(--postcolor);
+      font-family: 'Roboto';
+      font-size: 14px;
+      font-weight: 900;
+    }
+
+    .postbody::-webkit-scrollbar {
+      width: 5px;
+    }
