@@ -1,7 +1,7 @@
 /***CODE AND TEMPLATE BY LUA***/
 
     .postimg {
-      border: 5px solid var(--postcolor);
+      border: 3px solid var(--postcolor);
       border-bottom: hidden;
       border-radius: 10px 10px 0px 0px;
       background-color: #eee;
@@ -25,7 +25,7 @@
       border-top: hidden;
       border-color: var(--postcolor);
       border-radius: 0px 0px 10px 10px;
-      border-width: 5px;
+      border-width: 3px;
       font-family: 'Roboto';
       font-weight: 300;
       font-size: 13px;
