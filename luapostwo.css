@@ -1,8 +1,9 @@
 /***CODE AND TEMPLATE BY LUA***/
 
     .postimg {
-      border: 1px solid var(--postcolor);
+      border: 5px solid var(--postcolor);
       border-bottom: hidden;
+      border-radius: 10px 10px 0px 0px;
       background-color: #eee;
       width: 429px;
       height: 150px;
@@ -17,12 +18,14 @@
       padding-right: 10px;
       padding-left: 10px;
       background-color: #c2c2c2;
+      background-image: url("https://i.ibb.co/f063gLW/grungewall50-1.png");
       border-right: solid;
       border-left: solid;
       border-bottom: solid;
       border-top: hidden;
       border-color: var(--postcolor);
-      border-width: 1px;
+      border-radius: 0px 0px 10px 10px;
+      border-width: 5px;
       font-family: 'Roboto';
       font-weight: 300;
       font-size: 13px;
